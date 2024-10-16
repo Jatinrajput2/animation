@@ -15,10 +15,13 @@
      
     /* transition: 1s; */
     /* transition: transform 1s ease; */
-    transition: all 5s ease 1s;
+    /* transition: all 5s ease 1s; */
+    transition: transform 3s ease-out;
 }
 
 .box:hover{
-    background-color: brown;
-    transform: rotate(45deg);
+    /* background-color: brown;
+    transform: rotate(45deg); */
+
+    transform: translateX(500px);
 }
