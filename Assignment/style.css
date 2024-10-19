@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* .container{
     height: 100%;
     width: 100%;
@@ -13,7 +18,7 @@
 }
 
 button {
-    background-color: rgb(250, 103, 83);
+    background-color: #e84848;
     padding: 10px 25px;
     color: white;
     border: none;
@@ -22,7 +27,7 @@ button {
     overflow: hidden;
     z-index: 1;
     transition: background-color 0.3s ease;
-    
+
 }
 
 button::before {
